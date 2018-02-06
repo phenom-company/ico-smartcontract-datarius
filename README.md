@@ -87,7 +87,7 @@ Allows investors to return their investments(in ETH) if the SoftCap was not achi
 ```cs
 function refundOtherCrypto(address _investor, string _logString) public refundManagersOnly
 ```
-This method is called by refund manager to burn tokens of investors who want to revoke their investments in other cryptocurrencies.
+This method is called if the soft cap was not achieved by refund manager to burn tokens of investors who want to revoke their investments in other cryptocurrencies.
 
 **withdrawEther**
 ```cs
